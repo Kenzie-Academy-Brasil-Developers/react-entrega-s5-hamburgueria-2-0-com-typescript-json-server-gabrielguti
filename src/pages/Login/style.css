@@ -1,0 +1,107 @@
+.InputsCamp {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.InputsForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.InputsForm input {
+  padding: 10px;
+  margin-top: 5vh;
+  border-radius: 8px;
+  border: 1px solid #828282;
+
+}
+#burger{
+  color: #e60000;
+  font-variant: small-caps;
+  font-size: 1.5rem;
+}
+.InputsForm h2 {
+  margin-left: -70%;
+}
+.InputsForm button {
+  margin-top: 5vh;
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  background-color: #168821;
+  border-radius: 8px;
+  color: #e0e0e0;
+}
+.InputsForm button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.ContentForm {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.ContentForm span {
+  color: #e60000;
+}
+.formInfo {
+  border: 1px solid #e0e0e0;
+  display: flex;
+  top: 118px;
+  height: 95px;
+  left: 18px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.formInfo p {
+  color: #828282;
+}
+.formInfo span {
+  color: black;
+}
+.iconBag {
+  font-size: 2rem;
+  color: #168821;
+}
+.boxIcon {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-right: 2vw;
+}
+.title {
+  margin-bottom: 20px;
+  margin-top: 2vh;
+}
+.title h1 {
+  margin-left: 2vw;
+}
+.infoRegister{
+  text-align: center;
+  color:#828282;
+}
+.infoRegister span{
+  color: #168821;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+    .formInfo{
+      width: 30%;
+      position: relative;
+      /* margin-top: 200px; */
+      margin-left: 10vw;
+    }
+    .InputsForm{
+      margin-right: -350px;
+      margin-bottom: 150px;
+    }
+
+
+  }

@@ -1,0 +1,94 @@
+.HeaderBox {
+  width: 100%;
+  background-color: rgb(113, 182, 113);
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+}
+.shopIcon {
+  font-size: 1.3rem;
+  background-color: rgb(113, 182, 113);
+  padding: 0;
+  cursor: pointer;
+}
+.burger {
+  color: #e60000;
+  font-variant: small-caps;
+  font-size: 1.2rem;
+}
+.CartItems {
+  position: fixed;
+  background-color: #e0e0e0;
+  width: 80%;
+  overflow-y: auto;
+  height: 50vh;
+  margin-top: 14vh;
+  margin-left: 10%;
+}
+
+.ProductBoxCart {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+.ProductBoxCart img {
+  width: 60px;
+  height: 60px;
+  background-color: #e0e0e0;
+}
+.ProductInfoCart {
+  font-size: 8px;
+  width: 70%;
+}
+.ProductBoxCart h3 {
+  font-size: 10px;
+}
+#deleteIcon {
+  font-size: 1.8rem;
+  position: absolute;
+  margin-left: 140px;
+  margin-top: -25px;
+  color: #eb5757;
+  cursor: pointer;
+}
+.infoExit {
+  width: 80%;
+  background-color: rgb(113, 182, 113);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 30px;
+  position: fixed;
+  z-index: 2;
+}
+
+#exit {
+  font-size: 1.5rem;
+  margin: 10px;
+  color: #828282;
+  float: right;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .infoExit {
+    width: 50%;
+  }
+
+  .CartItems {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .ProductBoxCart img {
+    width: 90px;
+    height: 60px;
+  }
+  #deleteIcon {
+    margin-left: 250px;
+  }
+}

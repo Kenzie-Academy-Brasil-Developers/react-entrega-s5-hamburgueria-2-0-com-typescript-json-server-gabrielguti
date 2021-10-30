@@ -1,0 +1,23 @@
+.Footer {
+  height: 12vh;
+  width: 100%;
+  background-color: rgb(113, 182, 113);
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+.Footer h4 {
+  font-weight: lighter;
+}
+
+#OutIcon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+}
